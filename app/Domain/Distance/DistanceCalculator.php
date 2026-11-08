@@ -1,0 +1,8 @@
+<?php
+
+namespace App\Domain\Distance;
+
+interface DistanceCalculator
+{
+    public function getDistance(Point $point1, Point $point2): float;
+}
